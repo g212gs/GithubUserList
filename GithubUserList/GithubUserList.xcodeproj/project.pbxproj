@@ -27,6 +27,7 @@
 		457995E42DB8073F008D6931 /* GithubUserList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubUserList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		457995F42DB80740008D6931 /* GithubUserListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubUserListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		457995FE2DB80740008D6931 /* GithubUserListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubUserListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45D728D12DC395F100F09EF5 /* GithubUserList.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = GithubUserList.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		457995DB2DB8073F008D6931 = {
 			isa = PBXGroup;
 			children = (
+				45D728D12DC395F100F09EF5 /* GithubUserList.xctestplan */,
 				457995E62DB8073F008D6931 /* GithubUserList */,
 				457995F72DB80740008D6931 /* GithubUserListTests */,
 				457996012DB80740008D6931 /* GithubUserListUITests */,

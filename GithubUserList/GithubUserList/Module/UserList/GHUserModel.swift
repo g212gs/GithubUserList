@@ -1,5 +1,5 @@
 //
-//  GHUser.swift
+//  GHUserModel.swift
 //  GithubUserList
 //
 //  Created by Gaurang Lathiya on 22/04/25.
@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct GHUserResponse: Codable {
+struct GHUserResponseModel: Codable {
     let totalCount: Int
     let incompleteResults: Bool
-    let userList: [GHUser]
+    let userList: [GHUserModel]
 
     enum CodingKeys: String, CodingKey {
         case totalCount = "total_count"
@@ -19,7 +19,7 @@ struct GHUserResponse: Codable {
     }
 }
 
-struct GHUser: Codable, Identifiable {
+struct GHUserModel: Codable, Identifiable {
     let login: String
     let id: Int
     let nodeID: String

@@ -10,7 +10,7 @@ import Foundation
 class UserDetailViewModel: ObservableObject {
     
     let userDetailService: UserDetailProtocol
-    var userDetail: GHUserDetailResponse? = nil
+    var userDetail: GHUserDetailResponseModel? = nil
     
     @Published var isLoading: Bool = false
     

@@ -8,12 +8,12 @@
 import Foundation
 
 protocol UserListProtocol {
-    func fetchUsers(forQuery query: String?, pageNumber: Int, pageSize: Int) async throws -> GHUserResponse
+    func fetchUsers(forQuery query: String?, pageNumber: Int, pageSize: Int) async throws -> GHUserResponseModel
 }
 
 class UserListService: UserListProtocol {
     
-    func fetchUsers(forQuery query: String?, pageNumber: Int, pageSize: Int) async throws -> GHUserResponse {
+    func fetchUsers(forQuery query: String?, pageNumber: Int, pageSize: Int) async throws -> GHUserResponseModel {
         try await APIManager.shared.request(APIEndPoint.getUsers(query: query, pageNumber: pageNumber, pageSize: pageSize))
     }
 }

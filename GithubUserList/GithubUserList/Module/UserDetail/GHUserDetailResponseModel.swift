@@ -1,5 +1,5 @@
 //
-//  GHUserDetailResponse.swift
+//  GHUserDetailResponseModel.swift
 //  GithubUserList
 //
 //  Created by Gaurang Lathiya on 26/04/25.
@@ -7,8 +7,8 @@
 
 import Foundation
 
-// MARK: - GHUserDetailResponse
-struct GHUserDetailResponse: Codable {
+// MARK: - GHUserDetailResponseModel
+struct GHUserDetailResponseModel: Codable {
     let login: String
     let id: Int
     let nodeID: String

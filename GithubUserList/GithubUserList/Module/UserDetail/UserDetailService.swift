@@ -8,12 +8,12 @@
 import Foundation
 
 protocol UserDetailProtocol {
-    func fetchUserDetail(withUserId id: Int) async throws -> GHUserDetailResponse
+    func fetchUserDetail(withUserId id: Int) async throws -> GHUserDetailResponseModel
 }
 
 class UserDetailService: UserDetailProtocol {
     
-    func fetchUserDetail(withUserId id: Int) async throws -> GHUserDetailResponse {
+    func fetchUserDetail(withUserId id: Int) async throws -> GHUserDetailResponseModel {
         try await APIManager.shared.request(APIEndPoint.getUserDetails(id: id))
     }
 }

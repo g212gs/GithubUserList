@@ -16,11 +16,15 @@
 - [x] Add Search via default method
 - [x] Add Pull to refresh
 - [x] Add Pagination
+- [x] Add ContentUnavailableView usage
+- [x] Add Network status change handing using Network Framework
+- [x] Combine Framework usage
+- [x] Unit testing using Swift Testing
 
 
 # TODO
 
-- [x] Unit testing
+
 - [x] UI testing
 
 
